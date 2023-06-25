@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KTF</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: purple;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a {
+            text-transform: capitalize;
+            color: aqua;
+            text-decoration: none;
+        }
+        .container  {
+            display: flex;
+            border: 2px solid black;
+            margin: 10px;
+            gap: 5%;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            color: white;
+            background-color: blue;
+            border-radius: 10px;
+        }
+        .new-container {
+            display: inline-block;
+            align-items: center;
+            width: 98vw;
+            height: 80vh;
+            background-color: rgb(51, 58, 58);
+            margin: 10px;
+            border-radius: 10px;
+            border: 2px solid black;
+        }
+        #link {
+            text-align: center;
+        }
+        footer {
+            text-align: center;
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="head-1">KTF</h1>
+            <a href="#"><p class="head-2">sample-1</p></a>
+            <a href="#"><p class="head-3">sample-2</p></a> 
+            <a href="#"><p class="head-4">sample-3</p></a>
+            <a href="#"><p class="head-5">sample-4</p></a>
+            <form><input type="text" placeholder="Search!" required></form>  
+        </div>
+    </header>
+   <main>
+        <div class="new-container">
+            <a id="link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_self">Click Here to take attendance</a>
+        </div>
+   </main>
+   <footer>
+    <div>This website owned by KTF bETA</div>
+   </footer>
+</body>
+</html>
